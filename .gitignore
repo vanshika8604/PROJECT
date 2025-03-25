@@ -1,1 +1,15 @@
-text1.txt
+# Ignore log files
+*.log
+
+#Ignore Node.js modules
+node_modules/
+
+#Ignore environment files
+*.env
+#Ignore compiled python files
+_pycache_/
+*._pyc
+
+# Ignore system files
+.DS_store
+Thumbs.db
